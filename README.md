@@ -1,4 +1,4 @@
 JMPasswordView
 ==============
 
-GesturePassword
+JMPasswordView is a GesturePassword view
