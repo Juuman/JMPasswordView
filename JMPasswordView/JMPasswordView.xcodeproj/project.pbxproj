@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C739A62A19D24E5E00E94EA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C739A62919D24E5E00E94EA8 /* Foundation.framework */; };
+		C739A62C19D24E5E00E94EA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C739A62B19D24E5E00E94EA8 /* CoreGraphics.framework */; };
+		C739A62E19D24E5E00E94EA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C739A62D19D24E5E00E94EA8 /* UIKit.framework */; };
+		C739A63419D24E5E00E94EA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C739A63219D24E5E00E94EA8 /* InfoPlist.strings */; };
+		C739A63619D24E5E00E94EA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C739A63519D24E5E00E94EA8 /* main.m */; };
+		C739A63A19D24E5E00E94EA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C739A63919D24E5E00E94EA8 /* AppDelegate.m */; };
+		C739A63C19D24E5E00E94EA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C739A63B19D24E5E00E94EA8 /* Images.xcassets */; };
+		C739A64319D24E5E00E94EA8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C739A64219D24E5E00E94EA8 /* XCTest.framework */; };
+		C739A64419D24E5E00E94EA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C739A62919D24E5E00E94EA8 /* Foundation.framework */; };
+		C739A64519D24E5E00E94EA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C739A62D19D24E5E00E94EA8 /* UIKit.framework */; };
+		C739A64D19D24E5E00E94EA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C739A64B19D24E5E00E94EA8 /* InfoPlist.strings */; };
+		C739A64F19D24E5E00E94EA8 /* JMPasswordViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C739A64E19D24E5E00E94EA8 /* JMPasswordViewTests.m */; };
+		C739A65F19D24E7D00E94EA8 /* JMPasswordLineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C739A65A19D24E7D00E94EA8 /* JMPasswordLineLayer.m */; };
+		C739A66019D24E7D00E94EA8 /* JMPasswordPointLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C739A65C19D24E7D00E94EA8 /* JMPasswordPointLayer.m */; };
+		C739A66119D24E7D00E94EA8 /* JMPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = C739A65E19D24E7D00E94EA8 /* JMPasswordView.m */; };
+		C739A66519D24F4D00E94EA8 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C739A66319D24F4D00E94EA8 /* RootViewController.m */; };
+		C739A66619D24F4D00E94EA8 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C739A66419D24F4D00E94EA8 /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C739A64619D24E5E00E94EA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C739A61E19D24E5E00E94EA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C739A62519D24E5E00E94EA8;
+			remoteInfo = JMPasswordView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C739A62619D24E5E00E94EA8 /* JMPasswordView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMPasswordView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C739A62919D24E5E00E94EA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C739A62B19D24E5E00E94EA8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C739A62D19D24E5E00E94EA8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C739A63119D24E5E00E94EA8 /* JMPasswordView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JMPasswordView-Info.plist"; sourceTree = "<group>"; };
+		C739A63319D24E5E00E94EA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C739A63519D24E5E00E94EA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C739A63719D24E5E00E94EA8 /* JMPasswordView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JMPasswordView-Prefix.pch"; sourceTree = "<group>"; };
+		C739A63819D24E5E00E94EA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C739A63919D24E5E00E94EA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C739A63B19D24E5E00E94EA8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C739A64119D24E5E00E94EA8 /* JMPasswordViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMPasswordViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C739A64219D24E5E00E94EA8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C739A64A19D24E5E00E94EA8 /* JMPasswordViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JMPasswordViewTests-Info.plist"; sourceTree = "<group>"; };
+		C739A64C19D24E5E00E94EA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C739A64E19D24E5E00E94EA8 /* JMPasswordViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMPasswordViewTests.m; sourceTree = "<group>"; };
+		C739A65919D24E7D00E94EA8 /* JMPasswordLineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMPasswordLineLayer.h; sourceTree = "<group>"; };
+		C739A65A19D24E7D00E94EA8 /* JMPasswordLineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMPasswordLineLayer.m; sourceTree = "<group>"; };
+		C739A65B19D24E7D00E94EA8 /* JMPasswordPointLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMPasswordPointLayer.h; sourceTree = "<group>"; };
+		C739A65C19D24E7D00E94EA8 /* JMPasswordPointLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMPasswordPointLayer.m; sourceTree = "<group>"; };
+		C739A65D19D24E7D00E94EA8 /* JMPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMPasswordView.h; sourceTree = "<group>"; };
+		C739A65E19D24E7D00E94EA8 /* JMPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMPasswordView.m; sourceTree = "<group>"; };
+		C739A66219D24F4D00E94EA8 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C739A66319D24F4D00E94EA8 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C739A66419D24F4D00E94EA8 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C739A62319D24E5E00E94EA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C739A62C19D24E5E00E94EA8 /* CoreGraphics.framework in Frameworks */,
+				C739A62E19D24E5E00E94EA8 /* UIKit.framework in Frameworks */,
+				C739A62A19D24E5E00E94EA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C739A63E19D24E5E00E94EA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C739A64319D24E5E00E94EA8 /* XCTest.framework in Frameworks */,
+				C739A64519D24E5E00E94EA8 /* UIKit.framework in Frameworks */,
+				C739A64419D24E5E00E94EA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C739A61D19D24E5E00E94EA8 = {
+			isa = PBXGroup;
+			children = (
+				C739A62F19D24E5E00E94EA8 /* JMPasswordView */,
+				C739A64819D24E5E00E94EA8 /* JMPasswordViewTests */,
+				C739A62819D24E5E00E94EA8 /* Frameworks */,
+				C739A62719D24E5E00E94EA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C739A62719D24E5E00E94EA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C739A62619D24E5E00E94EA8 /* JMPasswordView.app */,
+				C739A64119D24E5E00E94EA8 /* JMPasswordViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C739A62819D24E5E00E94EA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C739A62919D24E5E00E94EA8 /* Foundation.framework */,
+				C739A62B19D24E5E00E94EA8 /* CoreGraphics.framework */,
+				C739A62D19D24E5E00E94EA8 /* UIKit.framework */,
+				C739A64219D24E5E00E94EA8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C739A62F19D24E5E00E94EA8 /* JMPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				C739A65819D24E7D00E94EA8 /* JMPasswordView */,
+				C739A63819D24E5E00E94EA8 /* AppDelegate.h */,
+				C739A63919D24E5E00E94EA8 /* AppDelegate.m */,
+				C739A63B19D24E5E00E94EA8 /* Images.xcassets */,
+				C739A63019D24E5E00E94EA8 /* Supporting Files */,
+				C739A66219D24F4D00E94EA8 /* RootViewController.h */,
+				C739A66319D24F4D00E94EA8 /* RootViewController.m */,
+				C739A66419D24F4D00E94EA8 /* RootViewController.xib */,
+			);
+			path = JMPasswordView;
+			sourceTree = "<group>";
+		};
+		C739A63019D24E5E00E94EA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C739A63119D24E5E00E94EA8 /* JMPasswordView-Info.plist */,
+				C739A63219D24E5E00E94EA8 /* InfoPlist.strings */,
+				C739A63519D24E5E00E94EA8 /* main.m */,
+				C739A63719D24E5E00E94EA8 /* JMPasswordView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C739A64819D24E5E00E94EA8 /* JMPasswordViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C739A64E19D24E5E00E94EA8 /* JMPasswordViewTests.m */,
+				C739A64919D24E5E00E94EA8 /* Supporting Files */,
+			);
+			path = JMPasswordViewTests;
+			sourceTree = "<group>";
+		};
+		C739A64919D24E5E00E94EA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C739A64A19D24E5E00E94EA8 /* JMPasswordViewTests-Info.plist */,
+				C739A64B19D24E5E00E94EA8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C739A65819D24E7D00E94EA8 /* JMPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				C739A65919D24E7D00E94EA8 /* JMPasswordLineLayer.h */,
+				C739A65A19D24E7D00E94EA8 /* JMPasswordLineLayer.m */,
+				C739A65B19D24E7D00E94EA8 /* JMPasswordPointLayer.h */,
+				C739A65C19D24E7D00E94EA8 /* JMPasswordPointLayer.m */,
+				C739A65D19D24E7D00E94EA8 /* JMPasswordView.h */,
+				C739A65E19D24E7D00E94EA8 /* JMPasswordView.m */,
+			);
+			path = JMPasswordView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C739A62519D24E5E00E94EA8 /* JMPasswordView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C739A65219D24E5E00E94EA8 /* Build configuration list for PBXNativeTarget "JMPasswordView" */;
+			buildPhases = (
+				C739A62219D24E5E00E94EA8 /* Sources */,
+				C739A62319D24E5E00E94EA8 /* Frameworks */,
+				C739A62419D24E5E00E94EA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JMPasswordView;
+			productName = JMPasswordView;
+			productReference = C739A62619D24E5E00E94EA8 /* JMPasswordView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C739A64019D24E5E00E94EA8 /* JMPasswordViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C739A65519D24E5E00E94EA8 /* Build configuration list for PBXNativeTarget "JMPasswordViewTests" */;
+			buildPhases = (
+				C739A63D19D24E5E00E94EA8 /* Sources */,
+				C739A63E19D24E5E00E94EA8 /* Frameworks */,
+				C739A63F19D24E5E00E94EA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C739A64719D24E5E00E94EA8 /* PBXTargetDependency */,
+			);
+			name = JMPasswordViewTests;
+			productName = JMPasswordViewTests;
+			productReference = C739A64119D24E5E00E94EA8 /* JMPasswordViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C739A61E19D24E5E00E94EA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = juuman;
+				TargetAttributes = {
+					C739A64019D24E5E00E94EA8 = {
+						TestTargetID = C739A62519D24E5E00E94EA8;
+					};
+				};
+			};
+			buildConfigurationList = C739A62119D24E5E00E94EA8 /* Build configuration list for PBXProject "JMPasswordView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C739A61D19D24E5E00E94EA8;
+			productRefGroup = C739A62719D24E5E00E94EA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C739A62519D24E5E00E94EA8 /* JMPasswordView */,
+				C739A64019D24E5E00E94EA8 /* JMPasswordViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C739A62419D24E5E00E94EA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C739A63419D24E5E00E94EA8 /* InfoPlist.strings in Resources */,
+				C739A63C19D24E5E00E94EA8 /* Images.xcassets in Resources */,
+				C739A66619D24F4D00E94EA8 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C739A63F19D24E5E00E94EA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C739A64D19D24E5E00E94EA8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C739A62219D24E5E00E94EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C739A66119D24E7D00E94EA8 /* JMPasswordView.m in Sources */,
+				C739A63A19D24E5E00E94EA8 /* AppDelegate.m in Sources */,
+				C739A66519D24F4D00E94EA8 /* RootViewController.m in Sources */,
+				C739A65F19D24E7D00E94EA8 /* JMPasswordLineLayer.m in Sources */,
+				C739A66019D24E7D00E94EA8 /* JMPasswordPointLayer.m in Sources */,
+				C739A63619D24E5E00E94EA8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C739A63D19D24E5E00E94EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C739A64F19D24E5E00E94EA8 /* JMPasswordViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C739A64719D24E5E00E94EA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C739A62519D24E5E00E94EA8 /* JMPasswordView */;
+			targetProxy = C739A64619D24E5E00E94EA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C739A63219D24E5E00E94EA8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C739A63319D24E5E00E94EA8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C739A64B19D24E5E00E94EA8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C739A64C19D24E5E00E94EA8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C739A65019D24E5E00E94EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C739A65119D24E5E00E94EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C739A65319D24E5E00E94EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JMPasswordView/JMPasswordView-Prefix.pch";
+				INFOPLIST_FILE = "JMPasswordView/JMPasswordView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C739A65419D24E5E00E94EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JMPasswordView/JMPasswordView-Prefix.pch";
+				INFOPLIST_FILE = "JMPasswordView/JMPasswordView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C739A65619D24E5E00E94EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JMPasswordView.app/JMPasswordView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JMPasswordView/JMPasswordView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JMPasswordViewTests/JMPasswordViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C739A65719D24E5E00E94EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JMPasswordView.app/JMPasswordView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JMPasswordView/JMPasswordView-Prefix.pch";
+				INFOPLIST_FILE = "JMPasswordViewTests/JMPasswordViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C739A62119D24E5E00E94EA8 /* Build configuration list for PBXProject "JMPasswordView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C739A65019D24E5E00E94EA8 /* Debug */,
+				C739A65119D24E5E00E94EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C739A65219D24E5E00E94EA8 /* Build configuration list for PBXNativeTarget "JMPasswordView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C739A65319D24E5E00E94EA8 /* Debug */,
+				C739A65419D24E5E00E94EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C739A65519D24E5E00E94EA8 /* Build configuration list for PBXNativeTarget "JMPasswordViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C739A65619D24E5E00E94EA8 /* Debug */,
+				C739A65719D24E5E00E94EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C739A61E19D24E5E00E94EA8 /* Project object */;
+}
